@@ -1,0 +1,23 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -ms-content-zooming: none;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+canvas {
+    position: relative;
+    background-color: lightslategray;
+    background: #0e0e0e;
+    background: -moz-linear-gradient(left,  #000 2%, lightslategray 50%, #000 98%);
+    background: -webkit-linear-gradient(left,  #000 2%,lightslategray  50%,#000 98%);
+    background: linear-gradient(to right,  #000 2%,lightslategray  50%,#000 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#0e0e0e',GradientType=1 );
+    border: 1px solid white;
+    cursor: none;
+}
